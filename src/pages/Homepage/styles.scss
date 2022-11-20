@@ -1,0 +1,25 @@
+.homepage-conatiner {
+    background-color: #f8f8fb;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 40px;
+
+    .container {
+        min-height: 75vh;
+        background-color: #8282ff9b;
+
+        .spinner {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: inherit;
+            height: 100%;
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    .homepage-conatiner  {
+        padding: 0 28px;
+    }     
+}
